@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 14pt; /* Размер основного шрифта в пунктах  */
+  background-color: ;/* Цвет фона веб-страницы */
+  color: ; /* Цвет основного текста */ 
+  text-align: center;
+}
+h1 {
+  color: ; /* Цвет заголовка */
+  font-size: 32pt; /* Размер шрифта в пунктах */
+  font-family: ; /* Семейство шрифтов */
+  font-weight: ; /* Нормальное начертание текста  */
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h2 {
+	font-size: 20pt;
+	margin-bottom: 40px;
+	
+	
+}
+p {
+  text-align: center; /* Выравнивание по ширине */
+  margin-top: ;
+  margin-left: auto; /* Отступ слева в пикселах */
+  margin-right: auto; /* Отступ справа в пикселах */
+  border-left: ; /* Параметры линии слева */
+  border-bottom: ; /* Параметры линии снизу */
+  padding-left: ; /* Отступ от линии слева до текста  */
+  padding-bottom:  /* Отступ от линии снизу до текста  */
+}

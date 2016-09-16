@@ -1,0 +1,43 @@
+		body {
+			background-image: url(../image/pattern.jpg);
+			background-repeat: no-repeat;
+		}
+		.formstyle {
+			background-color: white;
+			width: 700px;
+			text-align: center;
+			border: 1px solid black;
+			border-radius: 10px;
+			margin: 140px auto;
+		}
+		.info {
+			font-size: 48pt;
+			font-family: Impact;
+			text-align: center;
+			padding: 20px;
+		}
+		.krasota {
+			width: 200px;
+			height: 50px;
+			border-radius: 10px;
+			font-family: Segoe UI;
+			font-size: 25px;
+			color: white;
+			background-color: darkgreen;
+			border: 0px;
+			padding-bottom: 5px;
+			margin: 20px;
+		}
+		.krasota:hover {
+			background-color: green;
+		}
+		.field {
+			font-size: 40px;
+			text-align: center;
+			border-radius: 5px;
+			border-top: 0px;
+			border-left: 0px;
+			border-right: 0px;
+			border-bottom: 2px solid grey;
+		}
+		
