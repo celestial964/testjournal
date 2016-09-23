@@ -1,2 +1,7 @@
 [core]
 	autocrlf = input
+[user]
+	email = nikolay.olkhovsky@gmail.com
+	name = Nikolay Olkhovsky
+[http]
+	proxy = http://192.168.86.67:8080
