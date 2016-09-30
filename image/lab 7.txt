@@ -1,0 +1,96 @@
+typedef struct _Complex
+{
+	int real;
+	int complex;
+} Complex;
+#ifndef n2
+#define n2
+void printComplex(Complex x);
+Complex createComplex(int real, int complex);
+Complex sumComplex(Complex a, Complex b);
+Complex vichComplex(Complex a, Complex b);
+Complex umnoComplex(Complex a, Complex b);
+Complex soprComplex(Complex a);
+Complex delenieComplex(Complex a, Complex b);
+
+#endif
+#include <stdlib.h>
+#include <stdio.h>
+#include <malloc.h>
+#include "bib.h"
+void printComplex(Complex x)
+{
+	printf_s("%d+%di", x.real,x.complex);
+	printf_s("\n");
+}
+Complex createComplex(int real, int complex)
+{
+	Complex res;
+	res.real = real;
+	res.complex = complex;
+	return res;
+}
+Complex sumComplex(Complex a, Complex b)
+{
+	Complex res;
+	res.real = a.real + b.real;
+	res.complex = a.complex + b.complex;
+	return res;
+}
+Complex vichComplex(Complex a, Complex b)
+{
+	Complex res;
+	res.real = a.real - b.real;
+	res.complex = a.complex - b.complex;
+	return res;
+}
+Complex umnoComplex(Complex a, Complex b)
+{
+	Complex res;
+	res.real = (a.real*b.real) - (a.complex*b.complex);
+	res.complex = (a.real*b.complex) + (b.real*a.complex);
+	return res;
+}
+Complex soprComplex(Complex a)
+{
+	a.real = a.real;
+	a.complex = -a.complex;
+	return a;
+}
+Complex delenieComplex(Complex a, Complex b)
+{
+	Complex res;
+	Complex resch;
+	Complex reszn;
+	Complex c;
+	c = soprComplex(b);
+	resch = umnoComplex(a,c);
+	reszn = umnoComplex(b,c);
+	printComplex(resch);
+	printComplex(reszn);
+	res.real = resch.real / reszn.real;
+	res.complex = resch.complex / reszn.real;
+	return res;
+}
+#include <stdlib.h>
+#include <stdio.h>
+#include <malloc.h>
+#include "bib.h"
+int main()
+{
+	Complex a = createComplex(13, 1);
+	Complex b = createComplex(7, -6);
+	Complex res;
+	printComplex(a);
+	printComplex(b);
+	res=sumComplex(a,b);
+	printComplex(res);
+	res=vichComplex(a,b);
+	printComplex(res);
+	res=umnoComplex(a, b);
+	printComplex(res);
+	res = delenieComplex(a, b);
+	printComplex(res);
+	system("pause");
+	return 0;
+}
