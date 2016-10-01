@@ -1,0 +1,124 @@
+
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/GLscripts.js"></script>
+
+    <title>Список Групп</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/GLstyles.css">
+    <link href="jumbotron.css" rel="stylesheet">
+      <style>li {border-radius: 6px;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc; background-color: #f9f9f9;display: list-item;width: 12.5%;font-size: 24px;list-style: none;margin-left: 5px;}li:hover{cursor: pointer; border: 1px solid #000;} #centering{text-align: center;}body{background:url(image/wall1.jpg) !important; background-attachment:fixed !important;background-size: cover !important;}.jumbotron{background-color:transparent;border-top: 3px solid #ccc;} p{color: aliceblue;}#editGrpLst1 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst2 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst3 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst4 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst5 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst6 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}h2{color: azure;}</style>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          
+          <a class="navbar-brand" href="#">Список групп</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Имя Пользователя" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Пароль" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Войти</button>
+              
+          </form>
+        </div>
+      </div>
+    </div>
+
+      <div style="width:100%; margin-top:80px;"></div>
+    <div class="jumbotron">
+      <div  class="container">
+        <h2 id="textcenter">1 Курс</h2>
+    <li>МП-101</li>
+    <li>МП-102</li>
+    <li>МТ-101</li>
+    <li>МТ-102</li>
+    <li>МН-101</li>
+    <li>МК-101</li>
+          <button id="editGrpLst1" type="submit" class="btn btn-primary">Редактировать</button>
+        
+      </div>
+    </div>
+      <div class="jumbotron">
+      <div  class="container">
+        <h2 id="textcenter">2 Курс</h2>
+    <li>МП-201</li>
+    <li>МП-202</li>
+    <li>МТ-201</li>
+    <li>МН-201</li>
+    <li>МК-201</li>
+        <button id="editGrpLst2" type="submit" class="btn btn-primary">Редактировать</button>
+      </div>
+    </div>
+      <div class="jumbotron">
+      <div  class="container">
+        <h2 id="textcenter">3 Курс</h2>
+    <li>МП-301</li>
+    <li>МП-302</li>
+    <li>МТ-301</li>
+    <li>МН-301</li>
+    <li>МК-301</li>
+        <button id="editGrpLst3" type="submit" class="btn btn-primary">Редактировать</button>
+      </div>
+    </div>
+      <div class="jumbotron">
+      <div  class="container">
+        <h2 id="textcenter">4 Курс</h2>
+    <li>МП-401</li>
+    <li>МП-402</li>
+    <li>МТ-401</li>
+    <li>МН-401</li>
+    <li>МК-401</li>
+        <button id="editGrpLst4" type="submit" class="btn btn-primary">Редактировать</button>
+      </div>
+    </div>
+      <div class="jumbotron">
+      <div  class="container">
+        <h2 id="textcenter">5 Курс</h2>
+    <li>ММмаг-101</li>
+    <li>МТмаг-101</li>
+    <li>МПмаг-101</li>
+    <li>МПмаг-102</li>
+    <li>МК-501</li>
+        <button id="editGrpLst5" type="submit" class="btn btn-primary">Редактировать</button>
+      </div>
+    </div>
+      <div class="jumbotron">
+      <div  class="container">
+        <h2 id="textcenter">6 Курс</h2>
+    <li>МПмаг-201</li>
+    <li>МПмаг-202</li>
+    <li>МТмаг-201</li>
+    <li>ММмаг-201</li>
+        <button id="editGrpLst6" type="submit" class="btn btn-primary">Редактировать</button>
+      </div>
+    </div>
+
+    
+      <hr>
+
+      <footer>
+        <p> Если угонят — заряжу на бабки</p>
+      </footer>
+
+
+  </body>
+</html>
