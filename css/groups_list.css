@@ -1,0 +1,21 @@
+li {
+	border-radius: 6px;
+	padding: 10px; 
+	float:left;
+	line-height: 1.4;
+	text-align: center;
+	border: 1px solid #ccc; 
+	background-color: #f9f9f9;
+	display: list-item;
+	width: 12.5%;
+	font-size: 24px;
+	list-style: none;
+	margin-left: 5px;
+	}
+li:hover{
+	cursor: pointer;
+	border: 1px solid #000;
+	}
+	
+#centering{text-align: center;}body{background:url(../image/wall1.jpg) !important; background-attachment:fixed !important;background-size: cover !important;}.jumbotron{opacity: 0.7;} p{color: aliceblue;}#editGrpLst1 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst2 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst3 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst4 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst5 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}#editGrpLst6 {float: right !important;margin: 0 auto;padding: 10px; float:left;line-height: 1.4;text-align: center;border: 1px solid #ccc;display: list-item;width: 18%;font-size: 24px;list-style: none;margin-left: 5px;}</style>
+ 

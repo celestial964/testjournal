@@ -30,3 +30,18 @@ wget https://github.com/celestial964/testjournal.git
 get https://github.com/celestial964/testjournal.git
 git push -u origin master
 exit
+ls
+ls -la
+git remote add origin https://github.com/celestial964/testjournal.git
+git config --global http.proxy http://192.168.86.67:8080
+git push -u origin master
+git add --all
+git status
+git commit
+exit
+git push -u origin master
+exit
+git remote -v
+git fetch origin
+git pull origin
+exit
